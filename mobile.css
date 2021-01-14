@@ -1,0 +1,374 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/*MEDIA MOBILE*/
+@media screen and (max-width: 1024px) {
+  
+    .section-services {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: start;
+        grid-gap: 3.3rem;
+    }
+
+    .one-title {
+        width: 60vw;
+        font-size: 2.4rem;
+        margin: 20px 200px;
+        line-height: 1.3;
+    }
+
+    .two-title {
+        width: 50%;
+        font-size: 2.4rem;
+        margin: 20px 220px;
+        line-height: 1.3;
+    }
+
+    .div-container-tran {
+        margin: 0px  auto;
+        margin-bottom: 60px;
+    }
+
+    .text-left h3 {
+        position:absolute;
+        padding: 0;
+        top:136px;
+        left:-185px;
+    
+    }
+
+    .text-left .red {
+        position: absolute;
+        top:100px;
+        color: #ffa36c;
+    }
+
+    .text-left .red {
+    position: absolute;
+    top:106px;
+
+    }
+
+    .text-left .black {
+    position: absolute;
+    top: 240px;
+    }
+
+    #footer {
+        width: 100%;
+        height: 40vh;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    h3 {
+        margin-left: 50px;
+        padding: 25px 0;
+        font-size: 1.3rem;
+        width: 250px;
+    }
+
+   
+    .nav-list {
+        display: none;
+
+    }
+
+    #menu-open {
+        display: flex;
+        align-self: center; 
+        margin-right: 2rem;
+        fill: #333333;
+        transform: translate(0);
+        transition: background ease 2s;      
+    }
+
+    #nav-mobile {
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        height: 80vw;
+        background-color: #443535;
+        opacity: 0.9;
+        z-index: 1;
+                 
+               
+    }
+
+    #menu-close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        fill: #fff;
+
+    }
+
+    #nav-mobile ul {
+        margin-top:35px;
+
+    }
+
+    #nav-mobile ul li {
+        align-self: center;
+        padding: 1.6rem;
+        list-style: none;
+
+    }
+
+    #nav-mobile ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.3rem;
+    
+    }
+
+    #nav-mobile ul li a:active {
+      color:  #ffa36c;
+
+    }
+
+    .small-title {
+        width: 60vw;
+        color: #ffa36c;
+        font-size: 1.1rem;
+        margin-left: 50px;
+        margin-top: 120px;
+    }
+
+    .one-title {
+        font-size: 2.2rem;
+        margin: 20px 100px;
+    }
+
+    .two-title {
+        width: 50%;
+        font-size: 2.2rem;
+        margin: 20px 100px;
+    }
+
+    .small-text {   
+        margin-left: 120px;
+        padding: 15px 0;
+    }
+
+    .big-text {
+        width: 70%;
+        font-size: 1.1rem;
+        margin: 0 auto;
+        text-align: justify;
+    }
+   
+
+    .cont-email {
+        display: flex;
+        border: 0;
+        padding: 4px;
+        width: 300px;
+        height: 3.2rem;
+        background-color: #dfdfdf;
+        border-radius: 6px;
+        margin: 0 auto;
+    }
+
+    #section-services {
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        grid-gap: 3rem;
+        width: 75vw;
+    }
+
+    .svg-red {
+        margin: 0 0 30px 0;
+        padding: 10px;
+        background-color: rgba(216, 116, 116, 0.89);
+        fill: #fff;
+        border-radius: 5px;
+    }
+    
+
+    .grid-container {
+        display: grid;
+        /*gap: 1rem;*/
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto ;
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .smarthome {
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .booking {
+        margin-left: 0;
+        margin-top: 0px;
+
+    }
+
+    .container-our-teem {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0 auto; 
+       height: 85vh;    }
+
+    .image-right {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 1rem;
+        margin: 0 3rem;
+    }
+
+    .person-1 img {
+
+        width: 24vw;
+    }
+
+    .person-2 img {
+
+        width: 33vw;
+    }
+
+    .person-3 img {
+
+        width: 33vw;
+    }
+
+    .text-left {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-self: center;
+    }
+
+    .text-left .red {
+        position: absolute;
+        top: 60px;
+    }
+
+    .text-left h3 {
+        position: absolute;
+        padding: 0;
+        top: 96px;
+        left: -140px;
+    }
+
+    .text-left .black {
+        position: absolute;
+        top: 200px;
+    }
+
+    .image-tran img {
+        border-radius: 1rem;
+        margin: 0 auto;
+        object-fit: cover;
+        width: 85%;
+    }
+
+    .text-tran {
+        grid-column: 1 / 3;
+        grid-row: 1/2;
+        align-self: flex-end;
+    }
+
+   .text-tran h3 {
+        font-style: italic;
+    }
+
+    .div-container-tran {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 1fr ;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+    }
+
+    .name-tran {
+        grid-row: 2 /3;
+        grid-column: 2/3;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .image-tran {
+        grid-column: 2/3;
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    .nav-footer {
+        grid-column: 1 /4;
+        margin: 0 auto;
+    }
+
+    .social-network {
+        padding-top: 25px;
+        grid-column: 1 /4;
+        justify-self: center;
+    }
+
+    .contact {
+
+        grid-column: 1 /4;
+        justify-self: center;
+    }
+
+    .nav-list-footer {
+        list-style: none;
+        display: flex;
+        padding: 15px 0;
+    }
+
+     .nav-list-footer li {
+        padding: 0 10px;
+        
+    }
+
+}
+@media screen and (max-width: 500px) {
+
+    #nav-mobile {
+    
+        width: 100%;
+        height: 50%;
+    
+    }
+
+    .div-container-tran {
+        
+        width: 100%;
+       
+    }
+
+    .image-right {
+    
+        grid-gap: 2rem;
+  
+    }
+
+    .text-tran h3 {
+        
+         margin-left: 20px;
+
+    }
+
+    .text-left h3 {
+    
+        left: -130px;
+    }
+
+    
+}
