@@ -370,5 +370,34 @@
         left: -130px;
     }
 
-    
+    .cont-footer-email {
+       display:flex;
+       border:0;
+       padding: 4px;
+       width: 300px;
+       height: 3.2rem;
+       margin-left: 0px;
+       margin-bottom: 25px;
+       justify-content: space-between;
+       background-color: #dfdfdf;
+       border-radius: 6px;
+   
+    }
+
+    .name {
+       grid-column: 1 / 4;
+       align-self: flex-end;
+       justify-self: center;
+       color:#fff;
+    }
+
+
+    .link-more {
+      right: 0px;
+    }
+  
 }
+
+
+    
+
